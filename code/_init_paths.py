@@ -6,6 +6,7 @@ def add_path(path):
         sys.path.insert(0, path)
 
 # Add caffe to PYTHONPATH
-caffe_path = osp.join('../caffe-master', 'python')
-print caffe_path
-add_path(caffe_path)
+#Note: I comment out below 3 lines, as I use pre-built caffe
+#caffe_path = osp.join('../caffe-master', 'python')
+#print(caffe_path)
+#add_path(caffe_path)
